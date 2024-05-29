@@ -1,9 +1,12 @@
 name: Lint
 
-on: [push]
+on:
+  push:
+    tags:
+      - 'v*'
 
 jobs:
-  lint:
+  publish:
     runs-on: ubuntu-latest
 
     steps:
@@ -25,5 +28,7 @@ jobs:
     - name: Install dependencies
       run: pnpm install
 
-    - name: Run lint
-      run: pnpm lint
+    - name: Publish
+      run: pnpm publish
+      env:
+        NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
