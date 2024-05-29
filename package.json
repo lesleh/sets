@@ -1,6 +1,10 @@
 {
 	"name": "@lesleh/sets",
 	"type": "module",
+	"scripts": {
+		"test": "vitest",
+		"build": "tsc"
+	},
 	"devDependencies": {
 		"@types/node": "^20.12.13",
 		"typescript": "^5.4.5",
