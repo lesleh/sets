@@ -11,6 +11,7 @@ npm install @lesleh/sets
 ## Functions
 
 - `equal(set1, set2)`: Returns true if the two sets are equal.
+- `intersection(set1, set2)`: Returns the intersection of the two sets.
 - `union(set1, set2)`: Returns the union of the two sets.
 
 ## Usage
