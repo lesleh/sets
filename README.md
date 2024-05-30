@@ -8,9 +8,10 @@ Implements set operations for JavaScript Set objects.
 npm install @lesleh/sets
 ```
 
-## Features
+## Functions
 
 - `equal(set1, set2)`: Returns true if the two sets are equal.
+- `union(set1, set2)`: Returns the union of the two sets.
 
 ## Usage
 
