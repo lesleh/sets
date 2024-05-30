@@ -22,7 +22,9 @@ describe("union", () => {
   });
 
   it("should throw an error if either argument is not a set", () => {
-    expect(() => union(new Set(), null as any)).toThrow();
-    expect(() => union(null as any, new Set())).toThrow();
+    // @ts-expect-error testing invalid types
+    expect(() => union(new Set(), null)).toThrow();
+    // @ts-expect-error testing invalid types
+    expect(() => union(null, new Set())).toThrow();
   });
 });
