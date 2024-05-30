@@ -5,7 +5,8 @@
 	"scripts": {
 		"test": "vitest",
 		"build": "tsc",
-		"lint": "eslint"
+		"lint": "eslint",
+		"prepack": "tsc"
 	},
 	"module": "dist/index.js",
 	"exports": {
