@@ -24,5 +24,5 @@ import { areEqual } from '@lesleh/sets';
 const set1 = new Set([1, 2, 3]);
 const set2 = new Set([3, 2, 1]);
 
-console.log(equal(set1, set2)); // true
+console.log(areEqual(set1, set2)); // true
 ```
