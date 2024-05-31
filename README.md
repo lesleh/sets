@@ -11,8 +11,8 @@ npm install @lesleh/sets
 ## Functions
 
 - `areDisjoint(set1, set2)`: Returns true if the two sets are disjoint (i.e. have no elements in common).
-- `difference(set1, set2)`: Returns the difference of the two sets.
 - `areEqual(set1, set2)`: Returns true if the two sets are equal.
+- `difference(set1, set2)`: Returns the difference of the two sets.
 - `intersection(set1, set2)`: Returns the intersection of the two sets.
 - `union(set1, set2)`: Returns the union of the two sets.
 
