@@ -1,12 +1,13 @@
 {
 	"name": "@lesleh/sets",
-	"version": "0.5.0",
+	"version": "0.6.0",
 	"type": "module",
 	"scripts": {
 		"test": "vitest",
 		"build": "tsc",
 		"lint": "eslint",
-		"prepack": "tsc"
+		"prepack": "tsc",
+		"generate:function": "plop function"
 	},
 	"module": "dist/index.js",
 	"exports": {
