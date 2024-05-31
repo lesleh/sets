@@ -6,7 +6,8 @@
 		"test": "vitest",
 		"build": "tsc",
 		"lint": "eslint",
-		"prepack": "tsc"
+		"prepack": "tsc",
+		"generate:function": "plop function"
 	},
 	"module": "dist/index.js",
 	"exports": {
